@@ -1,0 +1,106 @@
+.wrapper{
+  background-color: #fae8e090;
+  margin: 0%;
+  }
+
+
+.header-box{
+display: flex;
+align-items: center;
+justify-content: space-between;
+height:140px;
+box-shadow: 10px 2px 2px 1px rgba(0, 0, 255, .2);
+}
+.right-box{
+    display: flex;
+    align-items: center;
+    padding:15px;
+    width:300px;
+    justify-content: space-between;
+}
+ 
+.right-box h1{
+  font-family:'Libre Bodoni', serif;
+  color: rgb(22, 4, 112);
+  font-size: 2em; 
+}
+
+
+.left-box 
+  { padding-right: 20px;
+    list-style: none;
+    display:flex;
+  }
+
+
+  .left-box li a{
+    padding:15px;
+    font-size:30px;
+    font-weight: bolder;
+    color: rgb(22, 4, 112);
+  }
+
+.left-box li a:visited{
+   cursor: pointer;
+   color:none;
+  }
+
+.text{
+    border: 1px rgb(22, 4, 112);
+    width:240px;
+    height:40px;
+    border-radius: 36px 36px 36px 36px;
+    margin: 30px;
+    background-color:rgb(22, 4, 112) ;
+    
+  }
+
+.text h2{
+    color: #ffff; 
+    padding-left: 20px;
+    padding-top: 8px;
+    }
+
+
+.main-content{
+display: flex;
+justify-content: center;
+}
+
+.styled-table {
+      border-collapse: collapse;
+      margin: 25px 0;
+      font-size: 1em;
+      font-family: sans-serif;
+      width:1000px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+
+
+.styled-table thead tr{
+    text-align: left;
+}
+
+.styled-table th,.styled-table td {
+    padding: 12px 25px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 0 0 20px rgba(0, 0, 0, 0.15);
+} 
+
+
+
+
+
+
+
+
